@@ -1,0 +1,16 @@
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\Rock\obj\Debug\net5.0\Rock.csproj.AssemblyReference.cache
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\Rock\obj\Debug\net5.0\Rock.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\Rock\obj\Debug\net5.0\Rock.AssemblyInfoInputs.cache
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\Rock\obj\Debug\net5.0\Rock.AssemblyInfo.cs
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\Rock\obj\Debug\net5.0\Rock.csproj.CoreCompileInputs.cache
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\Rock\bin\Debug\net5.0\Rock.exe
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\Rock\bin\Debug\net5.0\Rock.deps.json
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\Rock\bin\Debug\net5.0\Rock.runtimeconfig.json
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\Rock\bin\Debug\net5.0\Rock.runtimeconfig.dev.json
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\Rock\bin\Debug\net5.0\Rock.dll
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\Rock\bin\Debug\net5.0\Rock.pdb
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\Rock\obj\Debug\net5.0\Rock.dll
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\Rock\obj\Debug\net5.0\refint\Rock.dll
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\Rock\obj\Debug\net5.0\Rock.pdb
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\Rock\obj\Debug\net5.0\Rock.genruntimeconfig.cache
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\Rock\obj\Debug\net5.0\ref\Rock.dll

@@ -1,0 +1,5 @@
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\TicketSelling\obj\Debug\net5.0\TicketSelling.csproj.AssemblyReference.cache
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\TicketSelling\obj\Debug\net5.0\TicketSelling.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\TicketSelling\obj\Debug\net5.0\TicketSelling.AssemblyInfoInputs.cache
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\TicketSelling\obj\Debug\net5.0\TicketSelling.AssemblyInfo.cs
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\TicketSelling\obj\Debug\net5.0\TicketSelling.csproj.CoreCompileInputs.cache
