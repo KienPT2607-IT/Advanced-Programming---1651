@@ -32,7 +32,7 @@ namespace TicketSelling
 
         static void PrintMenu(string[] movies)
         {
-            for (int i = 0; i < movies.length; i++)
+            for (int i = 0; i < movies.Length; i++)
             {
                 Console.WriteLine((i + 1) + ": " + movies[i]);
             }
@@ -42,7 +42,7 @@ namespace TicketSelling
         {
             Console.Write("Your choice: ");
             int choice = int.Parse(Console.ReadLine());
-            return choice - 1;
+            return movies[choice - 1];
         }
 
         static int GetNumberOfTickets()

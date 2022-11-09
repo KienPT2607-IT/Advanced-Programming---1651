@@ -3,3 +3,14 @@ D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\TicketSell
 D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\TicketSelling\obj\Debug\net5.0\TicketSelling.AssemblyInfoInputs.cache
 D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\TicketSelling\obj\Debug\net5.0\TicketSelling.AssemblyInfo.cs
 D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\TicketSelling\obj\Debug\net5.0\TicketSelling.csproj.CoreCompileInputs.cache
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\TicketSelling\bin\Debug\net5.0\TicketSelling.exe
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\TicketSelling\bin\Debug\net5.0\TicketSelling.deps.json
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\TicketSelling\bin\Debug\net5.0\TicketSelling.runtimeconfig.json
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\TicketSelling\bin\Debug\net5.0\TicketSelling.runtimeconfig.dev.json
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\TicketSelling\bin\Debug\net5.0\TicketSelling.dll
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\TicketSelling\bin\Debug\net5.0\TicketSelling.pdb
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\TicketSelling\obj\Debug\net5.0\TicketSelling.dll
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\TicketSelling\obj\Debug\net5.0\refint\TicketSelling.dll
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\TicketSelling\obj\Debug\net5.0\TicketSelling.pdb
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\TicketSelling\obj\Debug\net5.0\TicketSelling.genruntimeconfig.cache
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\TicketSelling\obj\Debug\net5.0\ref\TicketSelling.dll
