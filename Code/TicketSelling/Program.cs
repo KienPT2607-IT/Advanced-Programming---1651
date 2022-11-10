@@ -4,30 +4,44 @@ namespace TicketSelling
 {
     class Program
     {
-        static string[] movies = { "Black Panter 2", "Black Adam", "Harry Potter" };
+        static string[] movies = { "Black Panther 2", "Black Adam", "Harry Potter" };
         const int price = 5;
         const double COUPON = 0.1;
         static void Main(string[] args)
         {
-            // Display a menu including 3 movies
-            PrintMenu(movies);
+            bool isContinue = true;
+            while (isContinue)
+            {
+                // Display a menu including 3 movies
+                PrintMenu(movies);
 
-            // Let user choose a movie
-            string movie = GetMovie();
+                // Let user choose a movie
+                string movie = GetMovie();
 
-            // Let user choose number of tickets
-            int nTickets = GetNumberOfTickets();
+                // Let user choose number of tickets
+                int nTickets = GetNumberOfTickets();
 
-            // Let user choose seats
-            string seats = GetSeats(nTickets);
+                // Let user choose seats
+                string[] seats = GetSeats(nTickets);
 
-            // Ask if his/her is a VIP member
-            bool VIP = IsVIP();
+                // Ask if his/her is a VIP member
+                bool VIP = IsVIP();
 
-            // Print out tickets and invoice
-            PrintTickets(movie, nTickets, seats);
-            PrintInvoice(nTickets, VIP);
-            // Quay lại menu
+                // Print out tickets and invoice
+                PrintTickets(movie, seats);
+                PrintInvoice(nTickets, VIP);
+
+                // Return to the menu
+                isContinue = IsContinue();
+            }
+
+        }
+
+        static bool IsContinue()
+        {
+            Console.Write("Continue? (y/n): ");
+            string message = Console.ReadLine();
+            return message == "y";
         }
 
         static void PrintMenu(string[] movies)
@@ -52,17 +66,17 @@ namespace TicketSelling
             return nTickets;
         }
 
-        static string GetSeats(int nTickets)
+        static string[] GetSeats(int nTickets)
         {
             // Use iteration to repeat nTickets time, asking a seat then add to a string
             // -> return that string
-            string seats = "";
-            for (var i = 0; i < nTickets; i++)
+            string[] seats = new string[nTickets];
+            for (var i = 0; i < seats.Length; i++)
             {
                 Console.Write("Choose your seat: ");
-                string seat = Console.ReadLine();
-                seats += seat + " ";
+                seats[i] = Console.ReadLine();
             }
+            Console.WriteLine("---------------\n");
             return seats;
         }
 
@@ -70,21 +84,27 @@ namespace TicketSelling
         {
             Console.Write("Are u a VIP member? (y/n): ");
             string answer = Console.ReadLine();
+            Console.WriteLine("---------------\n");
             return answer == "y";
         }
 
-        static void PrintTickets(string movieName, int nTickets, string seat)
+        static void PrintTickets(string movieName, string[] seats)
         {
-            Console.WriteLine("Movie: " + movieName);
-            Console.WriteLine("Number of tickets: " + nTickets);
-            Console.WriteLine("Seats: " + seat);
+            for (var i = 0; i < seats.Length; i++)
+            {
+                Console.WriteLine("Ticket: " + (i + 1));
+                Console.WriteLine("Movie: " + movieName);
+                Console.WriteLine("Seats: " + seats[i]);
+                Console.WriteLine("---------------\n");
+            }
+
         }
 
         static void PrintInvoice(int nTickets, bool VIP)
         {
             double payment = nTickets * price;
             if (VIP) payment -= payment * COUPON;
-            Console.WriteLine("Payment: " + payment);
+            Console.WriteLine("Payment: " + payment + "$");
         }
     }
 }

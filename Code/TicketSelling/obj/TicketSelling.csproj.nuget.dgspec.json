@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\Advanced Programming 1651\\Advanced-Programming---1651\\Code\\TicketSelling\\TicketSelling.csproj": {}
+    "D:\\Project code\\1651 Advanced Programming\\Advanced-Programming---1651\\Code\\TicketSelling\\TicketSelling.csproj": {}
   },
   "projects": {
-    "D:\\Project\\Advanced Programming 1651\\Advanced-Programming---1651\\Code\\TicketSelling\\TicketSelling.csproj": {
+    "D:\\Project code\\1651 Advanced Programming\\Advanced-Programming---1651\\Code\\TicketSelling\\TicketSelling.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Advanced Programming 1651\\Advanced-Programming---1651\\Code\\TicketSelling\\TicketSelling.csproj",
+        "projectUniqueName": "D:\\Project code\\1651 Advanced Programming\\Advanced-Programming---1651\\Code\\TicketSelling\\TicketSelling.csproj",
         "projectName": "TicketSelling",
-        "projectPath": "D:\\Project\\Advanced Programming 1651\\Advanced-Programming---1651\\Code\\TicketSelling\\TicketSelling.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Advanced Programming 1651\\Advanced-Programming---1651\\Code\\TicketSelling\\obj\\",
+        "projectPath": "D:\\Project code\\1651 Advanced Programming\\Advanced-Programming---1651\\Code\\TicketSelling\\TicketSelling.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Project code\\1651 Advanced Programming\\Advanced-Programming---1651\\Code\\TicketSelling\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
