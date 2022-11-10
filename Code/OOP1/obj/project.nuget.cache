@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "e0ileXQfa1iDULeu9yv6/zDS0x0mOacdBHc9l8QmfLdjgX8MLADrE1ZHrE+bg9o5Bgjk0ASwG0hfkAZveeJ1wA==",
+  "success": true,
+  "projectFilePath": "D:\\Project\\Advanced Programming 1651\\Advanced-Programming---1651\\Code\\OOP1\\OOP1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}
