@@ -7,16 +7,22 @@ namespace OOP1
 {
     public class Teacher
     {
-        private string name
+        private string name;
+        public string Name
         {
             get { return name; }
             set
             {
+                if (value == "")
+                {
+                    name = "Donal Trump";
+                }
                 name = value;
             }
         }
 
-        private string subject
+        private string subject;
+        public string Subject
         {
             get { return subject; }
             set
@@ -25,20 +31,26 @@ namespace OOP1
             }
         }
 
-        private int age
+        private int age;
+        public int Age
         {
             get { return age; }
             set
             {
-                if (age < 0)
+                if (age < 22)
                 {
-                    age = 0;
+                    Console.WriteLine("Invalid age, default value used");
                 }
                 else
                 {
                     age = value;
                 }
             }
+        }
+
+        public Teacher()
+        {
+        
         }
     }
 }

@@ -1,0 +1,16 @@
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\OOP\TicketSellingOOP\bin\Debug\net5.0\TicketSellingOOP.exe
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\OOP\TicketSellingOOP\bin\Debug\net5.0\TicketSellingOOP.deps.json
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\OOP\TicketSellingOOP\bin\Debug\net5.0\TicketSellingOOP.runtimeconfig.json
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\OOP\TicketSellingOOP\bin\Debug\net5.0\TicketSellingOOP.runtimeconfig.dev.json
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\OOP\TicketSellingOOP\bin\Debug\net5.0\TicketSellingOOP.dll
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\OOP\TicketSellingOOP\bin\Debug\net5.0\TicketSellingOOP.pdb
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\OOP\TicketSellingOOP\obj\Debug\net5.0\TicketSellingOOP.csproj.AssemblyReference.cache
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\OOP\TicketSellingOOP\obj\Debug\net5.0\TicketSellingOOP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\OOP\TicketSellingOOP\obj\Debug\net5.0\TicketSellingOOP.AssemblyInfoInputs.cache
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\OOP\TicketSellingOOP\obj\Debug\net5.0\TicketSellingOOP.AssemblyInfo.cs
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\OOP\TicketSellingOOP\obj\Debug\net5.0\TicketSellingOOP.csproj.CoreCompileInputs.cache
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\OOP\TicketSellingOOP\obj\Debug\net5.0\TicketSellingOOP.dll
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\OOP\TicketSellingOOP\obj\Debug\net5.0\refint\TicketSellingOOP.dll
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\OOP\TicketSellingOOP\obj\Debug\net5.0\TicketSellingOOP.pdb
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\OOP\TicketSellingOOP\obj\Debug\net5.0\TicketSellingOOP.genruntimeconfig.cache
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\OOP\TicketSellingOOP\obj\Debug\net5.0\ref\TicketSellingOOP.dll

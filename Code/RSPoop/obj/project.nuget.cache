@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5MwirkBfCyCQ3XMCpIZvyHC+WnA9RCDW3v85gWAjonP0oESRCe1nIrZXqbY0gEmWEQBMBpdSBXtNUl2xiB9i9w==",
+  "success": true,
+  "projectFilePath": "D:\\Project\\Advanced Programming 1651\\Advanced-Programming---1651\\Code\\RSPoop\\RSPoop.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

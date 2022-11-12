@@ -1,0 +1,16 @@
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\RSPoop\bin\Debug\net5.0\RSPoop.exe
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\RSPoop\bin\Debug\net5.0\RSPoop.deps.json
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\RSPoop\bin\Debug\net5.0\RSPoop.runtimeconfig.json
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\RSPoop\bin\Debug\net5.0\RSPoop.runtimeconfig.dev.json
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\RSPoop\bin\Debug\net5.0\RSPoop.dll
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\RSPoop\bin\Debug\net5.0\RSPoop.pdb
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\RSPoop\obj\Debug\net5.0\RSPoop.csproj.AssemblyReference.cache
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\RSPoop\obj\Debug\net5.0\RSPoop.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\RSPoop\obj\Debug\net5.0\RSPoop.AssemblyInfoInputs.cache
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\RSPoop\obj\Debug\net5.0\RSPoop.AssemblyInfo.cs
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\RSPoop\obj\Debug\net5.0\RSPoop.csproj.CoreCompileInputs.cache
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\RSPoop\obj\Debug\net5.0\RSPoop.dll
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\RSPoop\obj\Debug\net5.0\refint\RSPoop.dll
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\RSPoop\obj\Debug\net5.0\RSPoop.pdb
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\RSPoop\obj\Debug\net5.0\RSPoop.genruntimeconfig.cache
+D:\Project\Advanced Programming 1651\Advanced-Programming---1651\Code\RSPoop\obj\Debug\net5.0\ref\RSPoop.dll
