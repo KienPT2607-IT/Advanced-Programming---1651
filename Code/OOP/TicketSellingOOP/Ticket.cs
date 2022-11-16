@@ -8,7 +8,7 @@ namespace TicketSellingOOP
     public class Ticket
     {
         private string movie;
-        private string seats;
+        private string[] seats;
         private int nSeats;
 
         public string Movie
@@ -18,7 +18,7 @@ namespace TicketSellingOOP
         }
 
         // Properties
-        public string Seats
+        public string[] Seats
         {
             get { return seats; }
             set { seats = value; }
@@ -34,11 +34,11 @@ namespace TicketSellingOOP
         public Ticket()
         {
             Movie = "";
-            Seats = "";
+            Seats = null;
             NSeats = 0;
         }
 
-        public Ticket(string movie, string seats, int nSeats)
+        public Ticket(string movie, string[] seats, int nSeats)
         {
             this.movie = movie;
             this.seats = seats;

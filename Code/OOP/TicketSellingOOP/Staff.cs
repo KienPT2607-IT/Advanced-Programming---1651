@@ -22,10 +22,13 @@ namespace TicketSellingOOP
         public void PrintTicket(Ticket ticket)
         {
             // print ticket attributes (movie, seats, number)
-            Console.WriteLine("-----------");
-            Console.WriteLine("Movie name: " + ticket.Movie);
-            Console.WriteLine("Seats: " + ticket.Seats);
-            Console.WriteLine("Number of tickets: " + ticket.NSeats);
+            for (var i = 0; i < ticket.NSeats; i++)
+            {
+                Console.WriteLine("-----------");
+                Console.WriteLine("Seat: " + (i + 1));
+                Console.WriteLine("Movie name: " + ticket.Movie);
+                Console.WriteLine("Seat title: " + ticket.Seats[i]);
+            }
         }
         public void PrintInvoice(Customer customer)
         {
@@ -48,7 +51,7 @@ namespace TicketSellingOOP
                 Customer customer = new Customer();
                 int choice = customer.GetMovieChoice();
                 int nTickets = customer.GetNumberOfTickets();
-                string seats = customer.GetSeats(nTickets);
+                string[] seats = customer.GetSeats(nTickets);
                 string movie = movies[choice];
 
                 Ticket ticket = new Ticket(movie, seats, nTickets);

@@ -32,15 +32,15 @@ namespace TicketSellingOOP
             return nTickets;
         }
 
-        public string GetSeats(int nTickets)
+        public string[] GetSeats(int nTickets)
         {
             // use for loop to ask user enter seats, concat seat to a string
-            string seats = MyTicket.Seats;
+            string[] seats = new string[nTickets];
             Console.WriteLine("Choose the seat: ");
             for (int i = 0; i < nTickets; i++)
             {
                 Console.Write("\t- ");
-                seats += Console.ReadLine() + " ";
+                seats[i] = Console.ReadLine();
             }
             // return seats string
             return seats;
