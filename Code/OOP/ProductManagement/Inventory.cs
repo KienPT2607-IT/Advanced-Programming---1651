@@ -28,15 +28,29 @@ namespace ProductManagement
         {
             System.Console.Write("Enter product ID: ");
             int ID = int.Parse(Console.ReadLine());
-
-            for (var i = 0; i < products.Count; i++)
+            if (ID < 0)
             {
-                if (products[i].ID == ID)
-                {
-                    products.Remove(products[i]);
-                    break;
-                }
+                System.Console.WriteLine("Invalid ID");
+                return;
             }
+
+            Product p = FindByID(ID);
+
+            if (p == null) System.Console.WriteLine($"Product id {ID} not found");
+            else
+            {
+                products.Remove(p);
+                System.Console.WriteLine($"Product id {ID} deleted");
+            }
+        }
+
+        public Product FindByID(int ID)
+        {
+            foreach (var item in products)
+            {
+                if (item.ID == ID) return item;
+            }
+            return null;
         }
 
         public void ShowProducts()
