@@ -7,6 +7,9 @@ namespace TicketSellingOOP
 {
     public class Customer
     {
+        private const int minNTicket = 1;
+        private const int maxTicket = 5;
+
         public bool VIP { get; set; }
         public Ticket MyTicket { get; set; }
 
@@ -14,11 +17,19 @@ namespace TicketSellingOOP
         {
             MyTicket = new Ticket();
         }
-        public int GetMovieChoice()
+        public int GetMovieChoice(int maxChoice)
         {
             // ask user to enter a choice (1, 2, 3, ..)
-            Console.Write("Which movie (1, 2, 3, ...): ");
-            int choice = int.Parse(Console.ReadLine());
+            bool invalidChoice = true;
+            int choice = 0;
+            while (invalidChoice)
+            {
+                Console.Write("Which movie (1, 2, 3, ...): ");
+                choice = int.Parse(Console.ReadLine());
+                invalidChoice = (choice < 1) || (choice > maxChoice);
+                if (invalidChoice)
+                    Console.WriteLine("Invalid choice: Try again!\n");
+            }
             // then return choice
             return choice - 1;
         }
@@ -26,8 +37,16 @@ namespace TicketSellingOOP
         public int GetNumberOfTickets()
         {
             // ask user to enter number of tickets
-            Console.Write("How many tickets: ");
-            int nTickets = int.Parse(Console.ReadLine());
+            bool invalidNOfTickets = true;
+            int nTickets = 0;
+            while (invalidNOfTickets)
+            {
+                Console.Write("How many tickets: ");
+                nTickets = int.Parse(Console.ReadLine());
+                invalidNOfTickets = (nTickets < minNTicket) || (nTickets > maxTicket);
+                if (invalidNOfTickets)
+                    System.Console.WriteLine($"Only allows: {minNTicket} to {maxTicket}\n");
+            }
             // return number
             return nTickets;
         }

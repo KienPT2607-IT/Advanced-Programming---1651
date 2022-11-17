@@ -49,7 +49,7 @@ namespace TicketSellingOOP
                 PrintMovies();
 
                 Customer customer = new Customer();
-                int choice = customer.GetMovieChoice();
+                int choice = customer.GetMovieChoice(movies.Length);
                 int nTickets = customer.GetNumberOfTickets();
                 string[] seats = customer.GetSeats(nTickets);
                 string movie = movies[choice];
