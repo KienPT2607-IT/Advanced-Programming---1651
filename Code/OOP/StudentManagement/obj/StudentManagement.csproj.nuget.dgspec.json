@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project code\\1651 Advanced Programming\\Advanced-Programming---1651\\Code\\OOP\\StudentManagement\\StudentManagement.csproj": {}
+    "D:\\Project\\FWG program\\Advanced Programming 1651\\Advanced-Programming---1651\\Code\\OOP\\StudentManagement\\StudentManagement.csproj": {}
   },
   "projects": {
-    "D:\\Project code\\1651 Advanced Programming\\Advanced-Programming---1651\\Code\\OOP\\StudentManagement\\StudentManagement.csproj": {
+    "D:\\Project\\FWG program\\Advanced Programming 1651\\Advanced-Programming---1651\\Code\\OOP\\StudentManagement\\StudentManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project code\\1651 Advanced Programming\\Advanced-Programming---1651\\Code\\OOP\\StudentManagement\\StudentManagement.csproj",
+        "projectUniqueName": "D:\\Project\\FWG program\\Advanced Programming 1651\\Advanced-Programming---1651\\Code\\OOP\\StudentManagement\\StudentManagement.csproj",
         "projectName": "StudentManagement",
-        "projectPath": "D:\\Project code\\1651 Advanced Programming\\Advanced-Programming---1651\\Code\\OOP\\StudentManagement\\StudentManagement.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Project code\\1651 Advanced Programming\\Advanced-Programming---1651\\Code\\OOP\\StudentManagement\\obj\\",
+        "projectPath": "D:\\Project\\FWG program\\Advanced Programming 1651\\Advanced-Programming---1651\\Code\\OOP\\StudentManagement\\StudentManagement.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\FWG program\\Advanced Programming 1651\\Advanced-Programming---1651\\Code\\OOP\\StudentManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
