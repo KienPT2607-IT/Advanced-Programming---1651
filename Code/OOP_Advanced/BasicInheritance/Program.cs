@@ -1,7 +1,9 @@
 ﻿using BasicInheritance;
 
-Student st1 = new Student();
-st1.Show();
+Student s = new Student();
+s.Show(5);
 
-Student st2 = new Student("Trung Kien", 20);
-st2.Show();
+// s.name = "Paul";
+
+Student s2 = new Student("Mike", 20, 5.0);
+s2.Show(8);

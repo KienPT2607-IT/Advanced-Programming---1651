@@ -7,8 +7,18 @@ namespace BasicInheritance
 {
     public class Person
     {
-        public string Name { get; set; }
-        public int Age { get; set; }
+        protected string name;
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
+        protected int age;
+        public int Age
+        {
+            get { return age; }
+            set { age = value; }
+        }
         public Person()
         {
             Name = "Ngoc Anh";
