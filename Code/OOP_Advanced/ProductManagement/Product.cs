@@ -29,9 +29,9 @@ namespace ProductManagement
             Price = price;
         }
 
-        public void ShowInfor()
+        public virtual void ShowInfor()
         {
-            System.Console.WriteLine($"name: {name}, price: {price}");
+            System.Console.WriteLine($"name: {Name}, price: {price}");
         }
     }
 }

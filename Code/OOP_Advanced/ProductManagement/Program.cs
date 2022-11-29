@@ -12,5 +12,5 @@ while (running)
     else if (choice == 2) shoppe.SellProduct();
     else System.Console.WriteLine("System terminated");
 
-    running = choice <= 0 || choice >= 3;
+    running = choice > 0 && choice <= 3;
 }
