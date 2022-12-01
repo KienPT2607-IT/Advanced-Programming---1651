@@ -17,11 +17,13 @@ namespace ShapeManagement
         public Circle()
         {
             radius = 0; // By default
+            type = "Circle";
         }
 
         public Circle(string name, double radius) : base(name)
         {
             Radius = radius;
+            type = "Circle";
         }
 
         public override double GetArea()
@@ -32,8 +34,7 @@ namespace ShapeManagement
         public override void ShowInfor()
         {
             base.ShowInfor();
-            System.Console.WriteLine($"Area: {GetArea()}");
-            System.Console.WriteLine($"Perimeter: {GetPerimeter()}\n");
+            System.Console.WriteLine($"Radius: {radius}\n");
         }
 
         public override double GetPerimeter()

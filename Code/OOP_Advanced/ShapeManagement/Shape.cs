@@ -13,14 +13,20 @@ namespace ShapeManagement
             get { return name; }
             set { name = value; }
         }
-
+        protected string type;
+        public string Type
+        {
+            get { return type; }
+        }
         public Shape()
         {
             Name = "a default shape";
+            type = "Shape";
         }
 
         public Shape(string name)
         {
+            type = "Shape";
             Name = name;
         }
 
@@ -31,6 +37,9 @@ namespace ShapeManagement
         public virtual void ShowInfor()
         {
             System.Console.WriteLine($"Shape name: {name}");
+            System.Console.WriteLine($"Type: {type}");
+            System.Console.WriteLine($"Area: {GetArea()}");
+            System.Console.WriteLine($"Perimeter: {GetPerimeter()}");
         }
     }
 }

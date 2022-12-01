@@ -19,7 +19,8 @@ namespace ShapeManagement
             System.Console.WriteLine("1. Add circle");
             System.Console.WriteLine("2. Add Rectangle");
             System.Console.WriteLine("3. Add Square");
-            System.Console.WriteLine("4. Show all shapes");
+            System.Console.WriteLine("4. Add Triangle");
+            System.Console.WriteLine("5. Show all shapes");
             System.Console.WriteLine("0. Exit");
         }
 
@@ -37,6 +38,11 @@ namespace ShapeManagement
                     AddSquare();
                     break;
                 case 4:
+                    AddTriangleMenu();
+                    int _choice = GetChoice();
+                    AddTriangleProcess(_choice);
+                    break;
+                case 5:
                     ShowAllShape();
                     break;
                 case 0:
@@ -45,6 +51,65 @@ namespace ShapeManagement
                 default:
                     break;
             }
+        }
+
+        private void AddTriangleMenu()
+        {
+            System.Console.WriteLine("1. Normal");
+            System.Console.WriteLine("2. Isosceles");
+            System.Console.WriteLine("3. Equilateral");
+            System.Console.WriteLine("others: Exit to main menu\n");
+        }
+
+        private void AddTriangleProcess(int choice)
+        {
+            switch (choice)
+            {
+                case 1:
+                    AddNormalTriangle();
+                    break;
+                case 2:
+                    AddIsoTriangle();
+                    break;
+                case 3:
+                    AddEquilTriangle();
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        private void AddEquilTriangle()
+        {
+            Console.Write("Equilateral Triangle name: ");
+            string name = Console.ReadLine();
+            Console.Write("Side: ");
+            double side = double.Parse(Console.ReadLine());
+            shapes.Add(new EquilateralTriangle(name, side));
+        }
+
+        private void AddIsoTriangle()
+        {
+            Console.Write("Isosceles Triangle name: ");
+            string name = Console.ReadLine();
+            Console.Write("Base: ");
+            double _base = double.Parse(Console.ReadLine());
+            Console.Write("side: ");
+            double side = double.Parse(Console.ReadLine());
+            shapes.Add(new IsoscelesTriangle(name, _base, side));
+        }
+
+        private void AddNormalTriangle()
+        {
+            Console.Write("Normal Triangle name: ");
+            string name = Console.ReadLine();
+            Console.Write("Side A: ");
+            double sideA = double.Parse(Console.ReadLine());
+            Console.Write("Side B: ");
+            double sideB = double.Parse(Console.ReadLine());
+            Console.Write("Side C: ");
+            double sideC = double.Parse(Console.ReadLine());
+            shapes.Add(new Triangle(name, sideA, sideB, sideC));
         }
 
         private void ShowAllShape()
@@ -57,7 +122,7 @@ namespace ShapeManagement
 
         private void AddSquare()
         {
-            Console.Write("Circle name: ");
+            Console.Write("Square name: ");
             string name = Console.ReadLine();
             Console.Write("side: ");
             double side = double.Parse(Console.ReadLine());
@@ -66,7 +131,7 @@ namespace ShapeManagement
 
         private void AddRectangle()
         {
-            Console.Write("Circle name: ");
+            Console.Write("Rectangle name: ");
             string name = Console.ReadLine();
             Console.Write("Width: ");
             double width = double.Parse(Console.ReadLine());

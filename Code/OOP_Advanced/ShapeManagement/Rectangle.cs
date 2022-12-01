@@ -24,12 +24,14 @@ namespace ShapeManagement
         public Rectangle()
         {
             width = height = 1;
+            type = "Rectangle";
         }
 
         public Rectangle(string name, double width, double height) : base(name)
         {
             Width = width;
             Height = height;
+            type = "Rectangle";
         }
 
         public override double GetArea()
@@ -45,8 +47,8 @@ namespace ShapeManagement
         public override void ShowInfor()
         {
             base.ShowInfor();
-            System.Console.WriteLine($"Area: {GetArea()}");
-            System.Console.WriteLine($"Perimeter: {GetPerimeter()}\n");
+            System.Console.WriteLine($"Width: {width}");
+            System.Console.WriteLine($"height: {height}\n");
         }
     }
 }
