@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = HRManagement
-build_property.ProjectDir = d:\Project\FWG program\Advanced Programming 1651\Advanced-Programming---1651\Code\DesignPatten\Method\HRManagement\
+build_property.RootNamespace = BreakfastRestaurant
+build_property.ProjectDir = d:\Project\FWG program\Advanced Programming 1651\Advanced-Programming---1651\Code\DesignPatten\FactoryMethod\BreakfastRestaurant\
